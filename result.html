@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <link rel="apple-touch-icon" href="images/logo192.png" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta name="description" content="Horoskop created by Alesha74111" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monserat:wght@400;700&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Совместимость</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <h1 class="visually-hidden">Гороскоп на всю жизнь - Стрелец</h1>
+          <a class="header__link" href="index.html">Все знаки</a>
+        </div>
+      </header>
+      <main class="main">
+        <section class="name">
+          <div class="container">
+            <div class="name__inner name__inner--top">
+              <div id="imageContainerA"></div>
+              <div class="name__box">
+                <p class="text name__text">Совместимость для знака</p>
+                <h2 id="displayTextA" class="subtitle">Знак</h2>
+              </div>
+            </div>
+            <div class="name__inner">
+              <div id="imageContainerB"></div>
+              <div class="name__box">
+                <p class="text name__text">Со знаком</p>
+                <h2 id="displayTextB" class="subtitle">Знак</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="result">
+          <div class="container">
+            <h3 id="resultSubtitle" class="subtitle result__subtitle">1</h3>
+            <p id="resultText" class="text result__text">
+              Совершенно несовместимы. Звездочки говорят, что отношения
+              обречены, ведь вы слишком разные. Но, возможно, вы как инь-янь:
+              хоть и совсем разные, но друг без друга никак? Здесь уже зависит
+              от вас, так что если испытываете чувства - попробуйте
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <section>
+          <div class="container">
+            <ul class="list footer__list">
+              <li>
+                <a id="btn-horoscop" href="#" class="footer__link">
+                  <svg class="footer__icon">
+                    <use href="images/sprite.svg#moon"></use>
+                  </svg>
+                  Гороскоп</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__link footer__link--current"
+                  ><svg class="footer__icon">
+                    <use href="images/sprite.svg#heart"></use>
+                  </svg>
+                  Совместимость</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="copyright visually-hidden">
+          <div class="container">
+            <p class="copyright__text">2024 │ Developed by Alesha74111</p>
+            <p class="copyright__text">Ⓒ All rights reserved</p>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <script src="js/result.js"></script>
+    <script src="js/options.js"></script>
+  </body>
+</html>

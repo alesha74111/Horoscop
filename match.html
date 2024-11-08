@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <link rel="apple-touch-icon" href="images/logo192.png" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta name="description" content="Horoskop created by Alesha74111" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monserat:wght@400;700&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Совместимость</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <h1 class="visually-hidden">Гороскоп на всю жизнь - Стрелец</h1>
+          <a class="header__link" href="index.html">Все знаки</a>
+        </div>
+      </header>
+      <main class="main">
+        <section class="name">
+          <div class="container">
+            <div class="name__inner">
+              <div id="imageContainer"></div>
+              <div class="name__box">
+                <p class="text name__text">Совместимость для знака</p>
+                <h2 id="displayText" class="subtitle name__subtitle">Знак</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="sings">
+          <div class="container">
+            <h2 class="main__title">Выбери свой знак</h2>
+            <ul class="list grid">
+              <li class="grid__item">
+                <img class="grid__img" src="images/aries.png" alt="Овен" />
+                <p class="grid__title">Овен</p>
+              </li>
+              <li class="grid__item">
+                <img class="grid__img" src="images/taurus.png" alt="Телец" />
+                <p class="grid__title">Телец</p>
+              </li>
+              <li class="grid__item">
+                <img class="grid__img" src="images/gemini.png" alt="Близнецы" />
+                <p class="grid__title">Близнецы</p>
+              </li>
+              <li class="grid__item">
+                <img class="grid__img" src="images/cancer.png" alt="Рак" />
+                <p class="grid__title">Рак</p>
+              </li>
+              <li class="grid__item">
+                <img class="grid__img" src="images/leo.png" alt="Лев" />
+                <p class="grid__title">Лев</p>
+              </li>
+              <li class="grid__item">
+                <img class="grid__img" src="images/virgo.png" alt="Дева" />
+                <p class="grid__title">Дева</p>
+              </li>
+              <li class="grid__item">
+                <img class="grid__img" src="images/libra.png" alt="Весы" />
+                <p class="grid__title">Весы</p>
+              </li>
+              <li class="grid__item">
+                <img
+                  class="grid__img"
+                  src="images/scorpio.png"
+                  alt="Скорпион"
+                />
+                <p class="grid__title">Скорпион</p>
+              </li>
+              <li class="grid__item">
+                <img
+                  class="grid__img"
+                  src="images/sagittarius.png"
+                  alt="Стрелец"
+                />
+                <p class="grid__title">Стрелец</p>
+              </li>
+              <li class="grid__item">
+                <img
+                  class="grid__img"
+                  src="images/capricorn.png"
+                  alt="Козерог"
+                />
+                <p class="grid__title">Козерог</p>
+              </li>
+              <li class="grid__item">
+                <img
+                  class="grid__img"
+                  src="images/aquarius.png"
+                  alt="Водолей"
+                />
+                <p class="grid__title">Водолей</p>
+              </li>
+              <li class="grid__item">
+                <img class="grid__img" src="images/pisces.png" alt="Рыбы" />
+
+                <p class="grid__title">Рыбы</p>
+              </li>
+            </ul>
+            <a href="#" onclick="saveImages()" class="btn"
+              >Выберете вторую половинку</a
+            >
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <section>
+          <div class="container">
+            <ul class="list footer__list">
+              <li>
+                <a id="btn-horoscop" href="#" class="footer__link">
+                  <svg class="footer__icon">
+                    <use href="images/sprite.svg#moon"></use>
+                  </svg>
+                  Гороскоп</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footer__link footer__link--current"
+                  ><svg class="footer__icon">
+                    <use href="images/sprite.svg#heart"></use>
+                  </svg>
+                  Совместимость</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="copyright visually-hidden">
+          <div class="container">
+            <p class="copyright__text">2024 │ Developed by Alesha74111</p>
+            <p class="copyright__text">Ⓒ All rights reserved</p>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <script src="js/match.js"></script>
+  </body>
+</html>

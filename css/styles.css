@@ -378,7 +378,7 @@ img {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-image: url(/images/chevron.svg);
+  background-image: url(../images/chevron.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 17px;

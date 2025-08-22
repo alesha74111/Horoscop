@@ -13,3 +13,27 @@
 - Современные подходы к оптимизации скорости загрузки и производительности.
   Цели проекта:  
   Этот проект был создан с целью улучшения навыков в верстке, освоения принципов адаптивного дизайна и улучшения пользовательского интерфейса.
+
+## ❤️ If my projects are helpful, you can support me
+
+Your support helps me continue developing and improving open-source projects.  
+Any amount is greatly appreciated 🙏
+
+[![PrivatBank](https://img.shields.io/badge/Support-💳%20PrivatBank-blue)](https://www.privat24.ua/send/hxt42)
+
+---
+
+### 📱 Scan to support via Privat24
+
+<a href="https://www.privat24.ua/send/hxt42">
+  <img src="images/privat_support_qr.png" alt="QR code" width="200" />
+</a>
+
+Thank you for using and supporting my projects! 🚀
+
+---
+
+
+
+### Design layout
+![Design layout](images/layout.jpg)
